@@ -1,0 +1,73 @@
+
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  height:100%;;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url("images/click.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Calistoga';
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+  a:hover {
+    text-decoration: underline;
+  }
+
+.navbar-brand {
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+  font-family: 'Calistoga';
+}
+
+.navbar-nav {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  font-family: 'Calistoga';
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.navbar-wrapper .container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.jumbotron {
+  text-align: center;
+  font-family: Lucida;
+  margin: 0 0 0 0;
+}
+
+.jumbotron {
+  margin: 40px 0 0 0;
+  opacity: 0.7;
+}
+
+.container h1{
+  color: white;
+  opacity: 1;
+  font-family: 'Calistoga';
+}
+
+h1 {
+  font-size: 11px;
+}
